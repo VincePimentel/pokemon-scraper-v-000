@@ -6,8 +6,4 @@ class Pokemon
       self.send(("#{key}="), value)
     end
   end
-
-  def self.save(id, name, type)
-    Pokemon.new({id: id, name: name, type: type})
-  end
 end
