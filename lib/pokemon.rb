@@ -8,6 +8,6 @@ class Pokemon
   end
 
   def self.save(id, name, type)
-    Pokemon.new(data = {id:, name:, type:})
+    Pokemon.new(data = {id: id, name: name, type: type})
   end
 end
